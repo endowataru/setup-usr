@@ -4,17 +4,6 @@ set -eu
 
 source config.sh
 
-# Install Stow
-
-cd $SOURCE_PATH
-tar xvf stow-$STOW_VERSION.tar.gz
-cd stow-$STOW_VERSION
-mkdir build || true
-cd build
-../configure --prefix=$ROOT_PATH
-make
-make install
-
 # Git
 
 cd $SOURCE_PATH
@@ -59,5 +48,4 @@ make
 make install
 cd $INSTALL_PATH
 $STOW -v cmake-$CMAKE_VERSION
-
 
