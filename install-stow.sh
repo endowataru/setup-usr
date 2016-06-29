@@ -2,7 +2,7 @@
 
 set -eu
 
-source config.sh
+source ./config.sh
 
 # Install Stow
 

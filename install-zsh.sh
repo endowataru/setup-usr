@@ -2,7 +2,7 @@
 
 set -eu
 
-source config.sh
+source ./config.sh
 
 cd $SOURCE_PATH
 tar xvf zsh-$ZSH_VERSION.tar.xz
