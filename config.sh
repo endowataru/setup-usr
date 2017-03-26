@@ -17,7 +17,7 @@ ZSH_VERSION=5.3.1
 STOW=$ROOT_PATH/bin/stow
 GIT=$ROOT_PATH/local/bin/git
 
-INSTALL_LIST="cmake git nvim python stow vim zsh"
+INSTALL_LIST="stow cmake git nvim python vim zsh"
 
 mkdir $SOURCE_PATH || true
 
