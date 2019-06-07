@@ -6,6 +6,7 @@ source ./config.sh
 
 cd $SOURCE_PATH
 tar xvf zsh-$ZSH_VERSION.tar.xz
+tar xvf zsh-$ZSH_VERSION-doc.tar.xz
 cd zsh-$ZSH_VERSION
 mkdir build || true
 cd build
